@@ -116,7 +116,7 @@ The strategy is to use the mean for the relevant 5-minute interval.
 
 ![](PA1_template_files/figure-html/impute_mean_median-1.png)<!-- -->
 
-The mean with the imputed values is  and the median is . This is the same as for the original data with the NAs removed. 
+The mean with the imputed values is 10765.6393442623 and the median is 10762. This is very similar to the original data with the NAs removed. 
 
 
 ### Are there differences in activity patterns between weekdays and weekends?

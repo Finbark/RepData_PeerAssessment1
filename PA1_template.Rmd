@@ -108,7 +108,7 @@ The strategy is to use the mean for the relevant 5-minute interval.
     legend("topright", c("Imputed data", "NA-removed data"), fill=c("red", "blue") )
 ```
 
-The mean with the imputed values is `r print(mean_imputed)` and the median is `r print(median_imputed)`. This is the same as for the original data with the NAs removed. 
+The mean with the imputed values is `r paste(mean_imputed)` and the median is `r paste(median_imputed)`. This is very similar to the original data with the NAs removed. 
 
 
 ### Are there differences in activity patterns between weekdays and weekends?
